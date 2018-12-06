@@ -8,21 +8,18 @@ St Charles West High School
 St Charles, MO 63301
 (636) 443-4200
 
-Links to Other HCC Web sites:
+Links to Other Pages:
 
-Home Page
-Reservations
-Facilities
-Virtual Tour
-Staff
-Calendar of Events
-Contact Info
-Directions
-FAQ
+Contacts
+Education
+Projects
+Recommendation
+Skills
 
 
 
-Web Design
+
+Technical Studies
 Studying at Lewis and Clark Career Center in the Computer Software Development (CSD) program.
 With the ability to produce designs for websites and construct creative webpages. I have experience working with 
 the Hyptertext Markup Language (HTML) and Cascading Style Sheets (CSS). 
@@ -30,3 +27,7 @@ the Hyptertext Markup Language (HTML) and Cascading Style Sheets (CSS).
 Academic Studies
 As an 11th year student at St Charles West High School, 
 I've shown academic success throughout my academic career.
+Math: Pre-Calculus and Trigonometry
+Science: Honors Physics
+English: AP Language and Communications
+History: AP Gov

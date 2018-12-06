@@ -1,0 +1,33 @@
+Skills USA Member
+	I will be competing in Skills USA.
+Soccer 
+	I am a team captain for the St Charles West Boys soccer team.
+	My experience in soccer and being a leader on the team has made me grow 
+	as a person and a leader. As a team, we had to communicate with 
+	one another and our success was based on our communication. While galvanizing my teammates needed an 
+	extra push during games or practice.
+Tennis 
+	Another sport I partake in is Tennis. Being a first timer to Tennis, I have learned how
+	to adapt to new experiences and how to take feedback from others. 
+
+StuCo	
+	I have been an avid member of Student Council throughout high school.
+	I have shown my leadership abilities while being elected as the 
+	Junior Class President. As I have successfully organized class meetings for 
+	dances and school assemblies. While I also have had to communicate and 
+	solve problems as my time as an officer.
+	
+Bloodrive
+	I donated blood to the Mississippi Valley Regional Blood Center
+	
+Can Food Drive- High School Level and KickHunger (CSD)
+	I always participate in my school's can food drives. As I believe that especially
+	during times that we should spend with our families, those who are in need
+	should be extended a helping hand.
+HTML5
+	Ability to create structured websites on mobile, tablet, and desktop devices, 
+	use of flexboxes and grids layouts,  
+CSS3
+	Ability to create visually-interesting pages and captivating graphical designs,
+	including image borders, drop shadows, gradient fills	
+	
