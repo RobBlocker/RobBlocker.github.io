@@ -30,7 +30,7 @@ body {
 /* Horizonal Navigation Styles */
 
 nav.horizontal {
-   background-color: rgb(117, 140, 72);
+   background-color: rgb(63, 105, 170);
    min-height: 2em;
 }
 
@@ -41,7 +41,7 @@ nav.horizontal ul {
 }
 
 nav.horizontal li {
-   color: rgb(31, 73, 125);
+   color: rgb(228, 122, 46);
    float: left;
    line-height: 2em;
    text-align: center;
@@ -55,11 +55,11 @@ nav.horizontal a {
 }
 
 nav.horizontal a:visited, nav.horizontal a:link {
-   color: rgb(31, 73, 125);
+   color: rgb(228, 122, 46);
 }
 
 nav.horizontal a:hover, nav.horizontal a:active {
-   background-color: rgb(31, 73, 125);
+   background-color: white;
    color: white;
 }
 
