@@ -1,8 +1,136 @@
-<html>
-  <head>
-    <title></title>
-    <meta content="">
-    <style></style>
-  </head>
-  <body></body>
-</html>
+@charst "utf-8";
+
+/*
+	Portfolio 
+	
+	Robert Blocker's Portfolio
+	Author: Robert Blocker
+	Date:   11/10/18
+	
+	Filename: bio.css
+	
+	-->
+	
+	/* Basic styles to be used with all devices and under all conditions */
+	
+html{
+	background-color: rgb(112,128,144);
+}
+
+
+/*Header Styles*/
+
+header {
+	width: 100%;
+	background: radial-gradient(circle closest-corner at 40% 70%, white 15%, 
+	rgb(112,128,144) 50%);
+}
+header nav.horizontal {
+	width: 100%;
+}
+header nav.horizontal li {
+   background-color: rgb(245,255,250);
+   display: block;
+   font-family: Lucida Console, Monospace;
+   float: left;
+   width: 20%;
+}
+
+header nav.horizontal li a {
+   color: black;
+   display: block;
+   font-size: 0.8em;
+   height: 50px; 
+   letter-spacing: 0.1em;   
+   line-height: 50px; 
+   text-align: center;     
+   width: 100%;
+}
+
+header nav.horizontal li a:visited, header nav.horizontal li a:link {
+	color: black;
+}
+
+
+/*Body Styles*/
+body {
+  background: url(background.jpeg) 100%/cover fixed;
+   border: double;
+   float: none;
+   margin: 0px auto;
+   width: 90%;
+   max-width: 1000px;
+   min-width: 800px;
+	box-shadow: rgb(71, 71, 71) -20px -10px 25px,
+rgb(71, 71, 71) 20px 10px 25px;
+}
+
+/*Navigation List Styles*/
+body > header a {
+	border: 5px outset rgb(192, 192, 192);
+} 
+
+/*Section Left Styles*/
+
+section#right article {
+	width: 30%;
+}
+
+section#left article h1 {
+	color: rgb(0, 255, 0);
+	text-shadow: black 2px 2px 2px;
+}
+
+section#left p {
+   float: left;
+   font-size: 12px;
+}
+
+/*Section Right Styles*/
+
+section#right article {
+	width: 55%;
+}
+
+section#right article h1 {
+	color: rgb(0, 255, 0);
+	text-shadow: black 4px 4px 3px;
+}
+
+section#right article h2 {
+	color: rgb(153, 255, 153);
+	text-shadow: black 2px 2px 1.5px;
+}
+
+section#right p {
+   float: right;
+   font-size: 15px;
+}
+
+section#right img.brimg {
+	border-radius: 62%;
+	box-shadow: rgb(51, 51, 51) 30px 30px 20px;
+	transform: rotateX(25deg);
+		-webkit-filter: saturate(1.5) contrast(1.2);
+	filter: saturate(1.5) contrast(.7);
+}
+
+/*Footer Styles*/
+footer {
+	background-color: rgb(245, 255, 250);
+	border-top: 4px solid rgb(171, 171, 171);
+   margin-top: 15px;
+   color: rgb(255,218,185);
+   text-align: left;
+}
+
+footer, footer span  a {
+   font-size: 18px;
+   padding: 10px;
+   color: rgb(255,218,185);
+}
+
+footer span a:hover {
+   color: rgb(255,218,185);
+   text-decoration: underline;
+}

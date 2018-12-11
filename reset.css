@@ -1,8 +1,30 @@
-<html>
-  <head>
-    <title></title>
-    <meta content="">
-    <style></style>
-  </head>
-  <body></body>
-</html>
+@charst "utf-8";
+
+/*
+	Portfolio 
+	
+	Robert Blocker's Portfolio
+	Author: Robert Blocker
+	Date:   11/10/18
+	
+	Filename: reset.css
+	
+	-->
+	
+	/* Basic styles to be used with all devices and under all conditions */
+	
+/* HTML and Body Styles */
+	
+html {
+	   background-color: rgb(63, 105, 170);
+   }
+
+	   
+/*Footer Styles */
+footer {
+	color: rgb()
+	background-color: 
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}

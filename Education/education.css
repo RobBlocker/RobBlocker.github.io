@@ -1,8 +1,72 @@
-<html>
-  <head>
-    <title></title>
-    <meta content="">
-    <style></style>
-  </head>
-  <body></body>
-</html>
+@charset "utf-8";
+
+/*
+	Portfolio 
+	
+	Robert Blocker's Portfolio
+	Author: Robert Blocker
+	Date:   11/10/18
+	
+	Filename: bio.css
+	
+	-->
+	
+	/* Basic styles to be used with all devices and under all conditions */
+	
+/* HTML Styles and Body Styles*/
+
+/*HTML and Body Styles */
+
+/*Navigation Styles*/
+
+/*Section Styles */
+
+section#hs h1 {
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+	background: -moz-linear-gradient(45deg, rgb(128, 0, 0), white);
+	background: -webkit-linear-gradient(45deg, rgb(128, 0, 0), white);
+	-moz-background-origin: border;
+	background-origin: border-box;
+	border: 4px solid transparent;
+	border-radius: 8px;
+	color: black;
+	box-shadow: 9px 9px 5px hsl(0, 72%, 30%);
+}
+
+section#lc h1 {
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+	background: -moz-linear-gradient(45deg, rgb(255, 0, 0), rgb(0, 0, 0));
+	background: -webkit-linear-gradient(45deg, rgb(255, 0, 0), rgb(0, 0, 0));
+	-moz-background-origin: border;
+	background-origin: border-box;
+	border: 4px solid transparent;
+	border-radius: 8px;
+	color: white;
+	box-shadow: 9px 9px 5px hsl(0, 50%, 50%);
+}
+
+section#hs img, section#lc img {
+	height: 180px;
+	width: 180pxpx;
+	padding-left: 25px;
+	padding-top: 30px;
+	padding-bottom: auto;
+	padding-right: auto;
+}
+
+aside {
+	display: flex;
+	height: 600px;
+	
+}
+
+section#hs, section#lc{
+	width: 300px;
+	height: 300px;
+	margin: auto;
+}
+
