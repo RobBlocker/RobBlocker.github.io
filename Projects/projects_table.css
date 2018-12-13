@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Portfolio
+
+   Filename: projects.css
+   
+   This file contains the layout styles used in the Portfolio
+   projects page.
+
+*/
+
+/* ===========
+   Base Styles
+   ===========
+*/
+
+/*Table Styles*/
+
+table {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	border: 12px double white;
+	background-color: black;
+}
+td {
+	text-align: center;
+	background-color: red;
+	color: rgb(198, 190, 31);
+}
+th {
+	font-size: 1.2em;
+	background-color: rgb(198, 190, 31);
+	color: rgb(93, 60, 23);
+}
+caption {
+	color: orange;
+	background-color: white;
+}
+
+thead th {
+	background-color: rgb(93, 60, 23);
+	color: rgb(198, 190, 31);
+
+/* ===============================
+   Mobile Styles: 0px to 640px 
+   ===============================
+*/
+

@@ -17,59 +17,49 @@
 */
 
 /*HTML and Body Styles */
-html {
-	background-color: hsl(210, 100%, 95%);
-	background: radial-gradient(hsl(210, 100%, 95%) 30%, hsl(210, 50%, 40%));
-}
-/*Body Styles*/
 
 /*Navigation Styles*/
 
-/*Section Styles */
+nav.horizontal ul {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+nav.horizontal ul li {
+	font-size: 1em;
+	float: left;
+	text-align: center;
+}
+nav.horizontal ul li a {
+	color: black;
+	display: block;
+	padding: 5px 20px;
+	width: 75%;
+	text-decoration: none;
+	background-color: white;
+	border: 3px dotted black;
+} 
+
+
+header {
+	display: block;
+}
+header h1 {
+	float: left;
+}
+
+/*Body Styles*/
+
+body {
+	background-image: url(web-design-back.jpg);
+	min-height: 100%;
+	margin: 0px auto;
+	min-width: 400px;
+	max-width: 1024px;
+	width: 100%;
+}
 
 /*Aside Styles*/
-aside {
-	float: right;
-}
-/*div#right {
-	background: rgb(221, 65, 50);	
-	margin-top: 100px;
-	padding-top: 100px;
-	width: 400px;
-	color: white;
-	box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
-	border-top: 10px solid #fff;
-}
-
-div#right > cite img {
-	display: block;
-	width: 180px;
-	height: 180px;
-	border: 10px solid rgba(255,255,255,0.5);
-	border-radius: 50%;
-	background: url(profile.png) no-repeat center center;
-	position: absolute;
-	left: 50%;
-	top: -90px;
-	margin: 0 0 0 -90px;
-	box-shadow: inset 1px 1px 4px rgba(0,0,0,0.5),
-									0 2px 3px rgba(0,0,0,0.6);
-}
-
-div#right blockquote p {
-font-family: Cambria, Georgia, serif;
-	font-style: italic;
-	font-size: 25px;
-	border-bottom: 1px solid rgba(0,0,0,0.5);
-	box-shadow: 0 1px 0 rgba(255,255,255,0.1);
-	padding: 10px 10px 20px 10px;
-	text-align: center;
-	margin: 0 0 20px 0;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
-}*/
 
 /* Blockquote Styles */
-
-aside {
-	width: 50%;
-}

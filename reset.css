@@ -16,9 +16,16 @@
 /* HTML and Body Styles */
 	
 html {
-	   background-color: rgb(63, 105, 170);
-   }
+	background-color: rgb(207, 222, 172);
+	background: radial-gradient(rgb(207, 222, 172)) 30%, hsl(210, 50%, 40%));
+}
 
+/*Header Styles*/
+
+header {
+	color: rgb(228, 122, 46);
+	text-decoration: underline;
+}
 	   
 /*Footer Styles */
 footer {
