@@ -12,26 +12,115 @@
 	-->
 	
 	/* Basic styles to be used with all devices and under all conditions */
-	
+
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, nav a, ol, p, section, span, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;  
+}
+
+
+/* Set the default page element styles */
+
+body {
+   margin: 0px;
+   width: 100%;
+}
+
+body {
+
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 100%;
+   font-weight: inherit;
+   line-height: 1.2em;
+   margin: 0px;
+   padding: 0px;
+   text-decoration: none;
+   vertical-align: baseline;
+
+}
+
+ul, ol {
+   list-style: none;
+}
+
+nav ul {
+   list-style: none;
+   list-style-image: none;
+}
+
+nav a {
+   text-decoration: none;
+}
+
 /* HTML and Body Styles */
-	
 html {
 	background-color: rgb(207, 222, 172);
-	background: radial-gradient(rgb(207, 222, 172)) 30%, hsl(210, 50%, 40%));
+}
+
+body {
+	background-color: rgb(63, 105, 170);
 }
 
 /*Header Styles*/
+nav.horizontal {
+   background-color: rgb(63, 105, 170);
+   max-height: 2em;
+}
 
-header {
+nav.horizontal ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav.horizontal li {
+   color: rgb(228, 122, 46);
+   float: left;
+   line-height: 2em;
+   text-align: center;
+   text-transform: uppercase;
+	width: 20%;
+}
+
+nav.horizontal a {
+   display: block;
+   font-size: 1em;
+}
+
+nav.horizontal a:visited, nav.horizontal a:link {
+   color: rgb(228, 122, 46);
+}
+
+nav.horizontal a:hover, nav.horizontal a:active {
+   background-color: rgb(228, 122, 46);
+   color: rgb(63, 105, 170);
+}
+	
+/*Section Styles*/
+section#leftcol h1 {
 	color: rgb(228, 122, 46);
-	text-decoration: underline;
+	text-decoration: none;
 }
 	   
 /*Footer Styles */
+
 footer {
-	color: rgb()
-	background-color: 
+	color: rgb(228, 122, 46);
+	background: -moz-linear-gradient(45deg, rgb(63, 105, 170), rgb(0, 0, 0));
+	background: -webkit-linear-gradient(45deg, rgb(63, 105, 170), rgb(0, 0, 0));
 	margin-right: auto;
 	margin-left: auto;
+	width: 100%;
 	text-align: center;
+	border: .3em solid rgb(207, 222, 172);
 }

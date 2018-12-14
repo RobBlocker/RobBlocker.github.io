@@ -26,10 +26,15 @@ body {
    font-size: 12px;
 }
 
+html {
+	background-color: rgb(207, 222, 172);
+}
+
 /* Header Styles */
 
 header h1{
 	text-decoration: none;
+	color: rgb(228, 122, 46);
 	font-size: 4em;
 }
 
@@ -37,7 +42,7 @@ header h1{
 
 nav.horizontal {
    background-color: rgb(63, 105, 170);
-   min-height: 2em;
+   max-height: 2em;
 }
 
 nav.horizontal ul {
@@ -65,8 +70,8 @@ nav.horizontal a:visited, nav.horizontal a:link {
 }
 
 nav.horizontal a:hover, nav.horizontal a:active {
-   background-color: white;
-   color: rgb(228, 122, 46);
+   background-color: rgb(228, 122, 46);
+   color: rgb(63, 105, 170);
 }
 
 /* Section Styles */
@@ -74,6 +79,7 @@ nav.horizontal a:hover, nav.horizontal a:active {
 section {
    background-color: rgb(207, 222, 172);
    clear: both;
+}
 
 section::after {
    content: "";
