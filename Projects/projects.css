@@ -44,7 +44,7 @@ body{
 /*Article Styles*/
 article{
 	padding-bottom: 3px;
-	color: hsl(120, 100%, 90%);
+	color: rgb(228, 122, 46);
 	text-shadow: 2px 2px hsl(120, 100%, 10%);
 }
 
