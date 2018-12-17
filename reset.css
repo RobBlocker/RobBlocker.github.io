@@ -87,9 +87,9 @@ nav.horizontal li {
    color: rgb(228, 122, 46);
    float: left;
    line-height: 2em;
-   text-align: center;
+   text-align: left;
    text-transform: uppercase;
-	width: 20%;
+   width: 12%;
 }
 
 nav.horizontal a {
@@ -107,6 +107,7 @@ nav.horizontal a:hover, nav.horizontal a:active {
 }
 	
 /*Section Styles*/
+
 section#leftcol h1 {
 	color: rgb(228, 122, 46);
 	text-decoration: none;

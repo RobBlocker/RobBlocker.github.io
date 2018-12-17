@@ -17,31 +17,6 @@
 */
 
 /*HTML and Body Styles */
-
-/*Navigation Styles*/
-
-nav.horizontal ul {
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
-	list-style-type: none;
-}
-nav.horizontal ul li {
-	font-size: 1em;
-	float: left;
-	text-align: center;
-}
-nav.horizontal ul li a {
-	color: black;
-	display: block;
-	padding: 5px 20px;
-	width: 75%;
-	text-decoration: none;
-	background-color: white;
-	border: 3px dotted black;
-} 
-
-
 header {
 	display: block;
 }
@@ -52,7 +27,7 @@ header h1 {
 /*Body Styles*/
 
 body {
-	background-image: url(web-design-back.jpg);
+	background-color: rgb(228, 122, 46);
 	min-height: 100%;
 	margin: 0px auto;
 	min-width: 400px;
@@ -60,6 +35,36 @@ body {
 	width: 100%;
 }
 
-/*Aside Styles*/
+/*HTML and Body Styles*/
+body{
+	width: 100%;
+	background-color: rgb();
+}
 
-/* Blockquote Styles */
+/*Article Styles*/
+article{
+	padding-bottom: 3px;
+	color: hsl(120, 100%, 90%);
+	text-shadow: 2px 2px hsl(120, 100%, 10%);
+}
+
+/*Section Styles*/
+img#web1{
+	padding:5%;
+}
+img#web2{
+	padding:5%;
+}
+img#web3{
+	padding:5%;
+}
+img#web4{
+	padding:5%;
+}
+img#web5{
+	padding:5%;
+}
+img#web6{
+	padding:5%;
+}
+

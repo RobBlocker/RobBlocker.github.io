@@ -87,20 +87,50 @@ section::after {
    clear: both;
 }
 
-section img {
-   display: block;
-   width: 100%;
+img#1 {
+	position: absolute;
+	top: 40px;
+	left: 5%;
 }
+img#2 {
+	position: absolute;
+	top: 40px;
+	left: 5%;
+}
+img#3 {
+	position: absolute;
+	top: 40px;
+	left: 5%;
+}
+img#4 {
+	position: absolute;
+	top: 40px;
+	left: 5%;
+}
+img#5 {
+	position: absolute;
+	top: 40px;
+	left: 80%;
+}
+
+
+
 
 /* New Styles Added Below */
 
-/* ===============================
-   Mobile Styles: 0px to 480px 
-   ===============================
+/* =============================
+	Mobile Styles: 0 - 480 pixels
+   =============================
 */
 @media only screen and (max-width: 480px) {
+img{
+		display:none;
+	}
 
-   nav.horizontal a {
-      font-size: 1.5em;
-      line-height: 2.2em;
-   } 
+	body{
+		margin:15px;
+		padding-bottom:30px;
+	}
+	
+	
+}
